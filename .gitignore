@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------------------
+# Python artifacts
+# ---------------------------------------------------------------------------
+
+# Byte-compiled files that Python generates automatically; I do not need to commit these.
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution and packaging artifacts (not used here, but safe to exclude).
+*.egg-info/
+dist/
+build/
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+
+# I may create a virtual environment under one of these names locally.
+# None of them should be committed.
+.venv/
+venv/
+env/
+.env/
+
+# ---------------------------------------------------------------------------
+# Environment variable files
+# ---------------------------------------------------------------------------
+
+# I store no secrets in this project, but I exclude .env files as a habit
+# so I never accidentally commit credentials in a future iteration.
+.env
+.env.*
+
+# ---------------------------------------------------------------------------
+# Operating system junk files
+# ---------------------------------------------------------------------------
+
+# macOS metadata files created by Finder.
+.DS_Store
+.AppleDouble
+
+# Windows thumbnail cache files.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---------------------------------------------------------------------------
+# Editor and IDE files
+# ---------------------------------------------------------------------------
+
+# VS Code workspace settings I may generate locally.
+.vscode/
+*.code-workspace
+
+# JetBrains IDE files (PyCharm, DataGrip, etc.).
+.idea/
+
+# ---------------------------------------------------------------------------
+# Project-specific notes
+# ---------------------------------------------------------------------------
+
+# warehouse.db IS committed intentionally so that reviewers can inspect the
+# final database without needing to rerun the ETL pipeline themselves.
+# To regenerate it from scratch, run: python etl.py
