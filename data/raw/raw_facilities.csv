@@ -1,0 +1,7 @@
+facility_id,facility_name,city,country,equipment_type
+1,Cologne Imaging Center,North Judithbury,Germany,MRI
+2,Valencia Radiology Institute,East Jill,Spain,MRI
+3,Berlin Diagnostic Clinic,New Roberttown,Germany,X-Ray
+4,Munich Oncology Imaging Unit,East Jessetown,Germany,CT
+5,Hamburg General Imaging Dept,Lake Debra,Germany,CT
+6,Stuttgart Scan Center,Robinsonshire,Germany,CT

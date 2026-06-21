@@ -1,0 +1,441 @@
+diagnosis_id,scan_id,condition,severity_score,reviewed_by_radiologist
+1,1,Tumor - benign,6.4,No
+2,2,No abnormality detected,6.1,No
+3,3,Tumor - malignant,6.3,No
+4,5,Early-stage lesion,8.6,Yes
+5,7,Suspected fracture,5.9,TRUE
+6,8,Follow-up required,3.1,No
+7,9,Suspected fracture,2.5,
+8,10,Inflammation,7.8,Yes
+9,11,Inflammation,2.1,
+10,12,Follow-up required,3.0,Yes
+11,13,Tumor - malignant,4.9,Yes
+12,14,Suspected fracture,5.3,Yes
+13,17,Follow-up required,3.7,No
+14,18,Suspected fracture,0.2,Yes
+15,19,Tumor - malignant,0.4,Yes
+16,21,Inflammation,6.3,
+17,22,Follow-up required,7.0,Yes
+18,23,Tumor - benign,2.8,yes
+19,24,Tumor - malignant,9.7,No
+20,25,Follow-up required,5.9,Yes
+21,26,Follow-up required,7.3,No
+22,27,Suspected fracture,9.2,Yes
+23,28,No abnormality detected,3.1,No
+24,29,Tumor - benign,7.0,No
+25,30,Degenerative changes,5.2,yes
+26,31,Tumor - benign,7.5,yes
+27,32,Suspected fracture,7.7,Yes
+28,33,Follow-up required,2.7,Yes
+29,34,Suspected fracture,5.0,
+30,35,Early-stage lesion,8.6,No
+31,36,Inflammation,7.7,
+32,37,Suspected fracture,2.3,
+33,38,No abnormality detected,2.4,TRUE
+34,39,Tumor - benign,1.8,Yes
+35,40,Follow-up required,2.2,No
+36,41,Degenerative changes,2.7,Yes
+37,42,Suspected fracture,5.0,Yes
+38,43,No abnormality detected,9.5,Yes
+39,46,Inflammation,3.3,
+40,47,Degenerative changes,2.0,
+41,48,Tumor - malignant,4.6,
+42,51,Tumor - malignant,1.5,TRUE
+43,52,Degenerative changes,6.4,Yes
+44,54,Follow-up required,8.5,yes
+45,55,Tumor - malignant,4.2,Yes
+46,57,Inflammation,0.9,No
+47,59,Degenerative changes,4.6,Yes
+48,60,Tumor - benign,6.4,TRUE
+49,61,No abnormality detected,4.3,No
+50,62,Inflammation,8.5,TRUE
+51,63,Degenerative changes,3.2,yes
+52,64,Tumor - malignant,1.4,
+53,65,Suspected fracture,1.6,TRUE
+54,66,Suspected fracture,5.4,No
+55,67,Early-stage lesion,2.7,Yes
+56,68,Inflammation,8.3,
+57,69,Degenerative changes,1.5,No
+58,71,No abnormality detected,6.8,yes
+59,72,Tumor - benign,0.3,TRUE
+60,74,Tumor - malignant,0.9,Yes
+61,75,Tumor - benign,1.2,Yes
+62,76,Tumor - malignant,1.3,TRUE
+63,77,Suspected fracture,5.8,yes
+64,79,Suspected fracture,2.0,TRUE
+65,80,Suspected fracture,9.1,yes
+66,81,Early-stage lesion,0.5,
+67,82,Follow-up required,5.0,TRUE
+68,83,Tumor - benign,3.5,No
+69,84,Early-stage lesion,8.8,Yes
+70,85,Tumor - malignant,6.5,TRUE
+71,86,Early-stage lesion,0.6,yes
+72,87,Follow-up required,2.0,
+73,88,No abnormality detected,9.9,yes
+74,89,Early-stage lesion,3.4,
+75,90,Follow-up required,2.7,Yes
+76,91,Tumor - malignant,0.3,yes
+77,92,Early-stage lesion,5.3,
+78,95,Tumor - malignant,2.7,Yes
+79,96,Tumor - malignant,5.8,TRUE
+80,97,Tumor - benign,1.8,
+81,98,Degenerative changes,9.1,Yes
+82,99,Degenerative changes,9.5,
+83,100,Tumor - malignant,8.4,TRUE
+84,101,Tumor - benign,4.9,Yes
+85,102,Tumor - malignant,0.2,TRUE
+86,103,Tumor - malignant,8.1,yes
+87,104,Degenerative changes,0.6,No
+88,105,Tumor - benign,7.7,
+89,108,Follow-up required,5.9,yes
+90,109,Tumor - benign,9.8,TRUE
+91,110,Early-stage lesion,6.5,No
+92,111,Degenerative changes,2.2,
+93,112,Follow-up required,3.1,yes
+94,113,No abnormality detected,9.5,
+95,114,No abnormality detected,1.8,yes
+96,117,Suspected fracture,9.4,No
+97,118,Suspected fracture,2.4,yes
+98,119,Suspected fracture,8.2,yes
+99,120,Inflammation,2.1,Yes
+100,121,Suspected fracture,7.2,Yes
+101,122,Follow-up required,9.7,TRUE
+102,123,Follow-up required,3.5,TRUE
+103,124,Early-stage lesion,7.9,
+104,125,Tumor - malignant,1.6,Yes
+105,126,No abnormality detected,2.9,yes
+106,127,Suspected fracture,0.7,No
+107,129,Suspected fracture,5.5,Yes
+108,130,Early-stage lesion,7.0,TRUE
+109,132,Follow-up required,1.6,Yes
+110,133,Tumor - malignant,4.1,
+111,134,Inflammation,6.6,yes
+112,135,No abnormality detected,3.9,
+113,136,Tumor - benign,0.5,Yes
+114,137,Inflammation,8.2,
+115,138,Suspected fracture,0.3,No
+116,139,Suspected fracture,4.7,Yes
+117,140,Follow-up required,4.7,yes
+118,141,Follow-up required,1.8,TRUE
+119,142,Early-stage lesion,0.4,TRUE
+120,143,Tumor - malignant,8.4,
+121,144,Suspected fracture,0.9,yes
+122,145,Follow-up required,9.7,
+123,146,No abnormality detected,8.4,
+124,147,Early-stage lesion,5.7,No
+125,148,Suspected fracture,3.9,Yes
+126,149,Tumor - benign,1.2,TRUE
+127,150,Tumor - benign,9.7,No
+128,151,Follow-up required,0.8,TRUE
+129,152,Tumor - benign,8.3,yes
+130,153,Suspected fracture,0.9,
+131,154,Degenerative changes,8.6,
+132,155,No abnormality detected,7.9,
+133,156,Follow-up required,1.1,No
+134,157,Suspected fracture,9.2,
+135,158,Inflammation,8.7,yes
+136,160,Early-stage lesion,5.7,TRUE
+137,161,Inflammation,4.0,
+138,162,Follow-up required,0.4,yes
+139,163,No abnormality detected,7.5,yes
+140,165,Inflammation,3.1,TRUE
+141,167,Tumor - malignant,1.3,TRUE
+142,168,Degenerative changes,2.7,TRUE
+143,169,Suspected fracture,1.9,No
+144,171,Early-stage lesion,7.6,yes
+145,172,Tumor - benign,0.7,
+146,173,No abnormality detected,1.7,No
+147,174,Tumor - malignant,0.3,Yes
+148,176,Inflammation,3.7,TRUE
+149,177,Suspected fracture,6.8,No
+150,178,Early-stage lesion,1.8,TRUE
+151,179,Degenerative changes,3.4,yes
+152,180,Suspected fracture,2.9,TRUE
+153,181,Tumor - malignant,8.6,No
+154,182,Inflammation,6.5,
+155,183,No abnormality detected,4.7,No
+156,184,No abnormality detected,2.2,
+157,185,Inflammation,7.1,yes
+158,186,Follow-up required,8.5,TRUE
+159,187,Early-stage lesion,3.0,
+160,188,Follow-up required,5.8,Yes
+161,189,Degenerative changes,5.6,
+162,190,Inflammation,6.8,TRUE
+163,191,Inflammation,6.4,yes
+164,192,Inflammation,1.9,
+165,193,No abnormality detected,8.1,
+166,194,Degenerative changes,6.8,Yes
+167,195,Inflammation,2.6,TRUE
+168,196,No abnormality detected,5.8,
+169,197,Degenerative changes,7.3,No
+170,198,Early-stage lesion,9.1,yes
+171,199,Tumor - benign,8.4,
+172,200,Suspected fracture,4.7,yes
+173,201,Tumor - benign,9.5,yes
+174,202,Tumor - malignant,3.6,yes
+175,203,Degenerative changes,3.7,
+176,204,Suspected fracture,4.7,
+177,205,Suspected fracture,4.7,No
+178,206,Follow-up required,5.3,TRUE
+179,207,Tumor - benign,1.4,No
+180,208,Early-stage lesion,1.4,No
+181,209,Early-stage lesion,3.3,No
+182,210,No abnormality detected,0.0,yes
+183,211,Tumor - benign,5.8,No
+184,212,Suspected fracture,1.3,TRUE
+185,213,Follow-up required,4.3,TRUE
+186,214,No abnormality detected,5.3,yes
+187,217,Tumor - malignant,0.2,Yes
+188,218,Tumor - malignant,2.3,yes
+189,219,Suspected fracture,3.8,
+190,220,Suspected fracture,8.2,yes
+191,222,Degenerative changes,4.3,No
+192,223,Early-stage lesion,3.6,No
+193,224,Follow-up required,0.2,No
+194,225,Tumor - benign,2.1,Yes
+195,226,Tumor - benign,1.2,Yes
+196,227,Inflammation,7.7,
+197,228,No abnormality detected,6.6,Yes
+198,229,Suspected fracture,4.2,TRUE
+199,230,Inflammation,4.7,No
+200,231,No abnormality detected,3.0,Yes
+201,232,Inflammation,6.2,No
+202,233,Suspected fracture,5.1,
+203,234,Suspected fracture,7.8,TRUE
+204,235,Tumor - malignant,7.8,
+205,237,Follow-up required,3.0,Yes
+206,238,Tumor - malignant,6.9,TRUE
+207,239,No abnormality detected,0.1,Yes
+208,241,Early-stage lesion,1.5,Yes
+209,242,Suspected fracture,7.2,Yes
+210,244,Early-stage lesion,9.9,yes
+211,245,No abnormality detected,1.0,No
+212,248,Degenerative changes,4.3,Yes
+213,249,No abnormality detected,0.1,No
+214,250,Tumor - benign,3.3,TRUE
+215,252,Suspected fracture,3.7,yes
+216,253,Follow-up required,4.0,TRUE
+217,254,Follow-up required,6.9,TRUE
+218,255,Tumor - benign,1.1,Yes
+219,257,Suspected fracture,4.2,
+220,258,Early-stage lesion,1.8,TRUE
+221,259,No abnormality detected,8.6,No
+222,260,Early-stage lesion,1.1,TRUE
+223,261,Suspected fracture,2.6,yes
+224,262,Tumor - malignant,9.8,yes
+225,263,Suspected fracture,4.3,No
+226,264,Follow-up required,1.5,
+227,266,No abnormality detected,6.4,No
+228,267,Early-stage lesion,8.5,No
+229,268,Early-stage lesion,3.2,yes
+230,270,Tumor - malignant,5.5,TRUE
+231,271,Tumor - malignant,0.8,TRUE
+232,272,Early-stage lesion,0.9,TRUE
+233,273,Suspected fracture,9.8,Yes
+234,274,Follow-up required,0.4,
+235,275,Suspected fracture,7.9,
+236,276,Tumor - malignant,6.5,TRUE
+237,278,No abnormality detected,8.2,TRUE
+238,279,Early-stage lesion,7.2,yes
+239,280,Suspected fracture,1.0,No
+240,281,Degenerative changes,8.3,yes
+241,282,Degenerative changes,7.0,Yes
+242,284,Follow-up required,1.1,
+243,285,Suspected fracture,9.3,TRUE
+244,286,Tumor - malignant,7.2,Yes
+245,287,No abnormality detected,9.3,
+246,288,Early-stage lesion,4.6,
+247,290,Early-stage lesion,0.0,Yes
+248,291,Follow-up required,8.4,TRUE
+249,293,Tumor - benign,6.9,No
+250,294,Tumor - benign,1.0,
+251,295,Degenerative changes,5.0,TRUE
+252,296,Tumor - malignant,2.7,yes
+253,298,Tumor - benign,1.4,
+254,299,Inflammation,8.4,
+255,301,Tumor - malignant,2.0,
+256,302,Degenerative changes,9.2,No
+257,304,Tumor - benign,5.0,yes
+258,305,Degenerative changes,5.6,
+259,306,Follow-up required,6.7,
+260,307,Follow-up required,8.1,
+261,308,Follow-up required,1.5,Yes
+262,309,Tumor - benign,9.8,yes
+263,310,No abnormality detected,6.9,yes
+264,311,No abnormality detected,3.6,TRUE
+265,312,Tumor - malignant,7.4,
+266,313,Inflammation,6.9,Yes
+267,315,Degenerative changes,9.7,Yes
+268,316,Inflammation,2.0,TRUE
+269,317,Degenerative changes,7.6,
+270,318,Tumor - malignant,7.8,No
+271,319,Tumor - benign,9.8,Yes
+272,320,Tumor - benign,7.4,Yes
+273,321,Follow-up required,2.8,yes
+274,322,Inflammation,0.1,TRUE
+275,323,Tumor - benign,0.4,yes
+276,324,Inflammation,4.9,
+277,325,Suspected fracture,7.8,yes
+278,326,Tumor - benign,5.2,
+279,327,Follow-up required,0.9,No
+280,329,Degenerative changes,3.6,No
+281,331,Early-stage lesion,10.0,Yes
+282,332,Degenerative changes,4.5,
+283,334,No abnormality detected,6.8,yes
+284,335,Suspected fracture,3.9,
+285,336,No abnormality detected,9.1,yes
+286,337,Early-stage lesion,4.9,yes
+287,339,Suspected fracture,9.5,No
+288,341,No abnormality detected,6.3,No
+289,342,Tumor - malignant,8.6,TRUE
+290,343,Tumor - malignant,5.4,TRUE
+291,344,Suspected fracture,7.5,No
+292,345,Degenerative changes,0.4,Yes
+293,346,Inflammation,5.6,
+294,347,Inflammation,4.1,TRUE
+295,348,Follow-up required,3.2,TRUE
+296,349,No abnormality detected,6.4,
+297,350,No abnormality detected,7.0,Yes
+298,351,Suspected fracture,2.9,yes
+299,352,Inflammation,7.7,TRUE
+300,353,No abnormality detected,4.7,
+301,354,Follow-up required,8.0,
+302,355,Tumor - benign,3.0,yes
+303,357,Tumor - benign,1.2,Yes
+304,358,Follow-up required,5.4,Yes
+305,359,Degenerative changes,2.1,
+306,360,Tumor - benign,2.2,yes
+307,361,Tumor - benign,6.7,
+308,366,Suspected fracture,2.9,Yes
+309,367,Tumor - malignant,7.3,TRUE
+310,369,Tumor - malignant,1.0,
+311,370,Tumor - malignant,3.2,TRUE
+312,371,Inflammation,6.9,No
+313,372,Degenerative changes,8.1,TRUE
+314,373,Degenerative changes,2.5,No
+315,374,Follow-up required,2.8,yes
+316,375,Degenerative changes,8.8,TRUE
+317,376,Inflammation,4.9,Yes
+318,377,Suspected fracture,8.4,No
+319,379,Suspected fracture,7.3,Yes
+320,380,No abnormality detected,8.1,
+321,381,Tumor - malignant,9.1,
+322,382,Early-stage lesion,6.5,No
+323,383,Tumor - malignant,8.9,
+324,384,Inflammation,1.3,
+325,385,Follow-up required,3.6,Yes
+326,386,Tumor - benign,7.6,No
+327,387,Tumor - benign,5.7,
+328,388,Tumor - benign,7.4,TRUE
+329,390,Early-stage lesion,2.3,yes
+330,391,No abnormality detected,6.7,
+331,393,Early-stage lesion,9.2,Yes
+332,394,Degenerative changes,1.0,
+333,395,Inflammation,8.3,yes
+334,396,Tumor - benign,3.8,TRUE
+335,397,Suspected fracture,5.2,TRUE
+336,399,Follow-up required,3.5,yes
+337,400,Early-stage lesion,8.9,Yes
+338,401,Tumor - benign,4.4,No
+339,402,Inflammation,2.1,No
+340,403,Suspected fracture,6.6,TRUE
+341,404,Suspected fracture,4.8,TRUE
+342,405,Tumor - benign,6.5,TRUE
+343,406,No abnormality detected,1.3,
+344,407,No abnormality detected,8.9,No
+345,408,Inflammation,9.2,
+346,410,No abnormality detected,8.8,yes
+347,412,Early-stage lesion,8.7,No
+348,413,Follow-up required,6.0,
+349,414,Tumor - benign,6.2,
+350,415,Degenerative changes,9.2,
+351,416,Tumor - malignant,3.8,No
+352,417,Tumor - malignant,5.2,
+353,418,Tumor - benign,6.1,No
+354,419,No abnormality detected,8.8,
+355,420,Suspected fracture,0.9,No
+356,422,No abnormality detected,9.0,TRUE
+357,423,Degenerative changes,8.7,
+358,424,Early-stage lesion,7.9,TRUE
+359,425,Suspected fracture,4.3,yes
+360,426,Tumor - malignant,9.1,Yes
+361,427,Follow-up required,2.6,Yes
+362,428,No abnormality detected,5.8,Yes
+363,429,Follow-up required,6.5,yes
+364,430,Suspected fracture,1.5,
+365,431,Follow-up required,5.6,
+366,432,Follow-up required,7.5,TRUE
+367,433,Early-stage lesion,1.8,
+368,434,Inflammation,9.9,
+369,435,Follow-up required,7.4,Yes
+370,436,Early-stage lesion,7.8,No
+371,437,Follow-up required,7.9,
+372,438,No abnormality detected,1.6,Yes
+373,439,Tumor - benign,4.7,
+374,440,Suspected fracture,2.6,yes
+375,441,No abnormality detected,7.2,TRUE
+376,442,Inflammation,7.1,
+377,443,Tumor - benign,6.4,TRUE
+378,444,Inflammation,1.9,
+379,445,Tumor - malignant,6.2,Yes
+380,446,No abnormality detected,9.8,Yes
+381,448,Degenerative changes,6.7,TRUE
+382,449,No abnormality detected,7.4,Yes
+383,451,Degenerative changes,3.5,yes
+384,452,Tumor - malignant,4.5,TRUE
+385,453,Inflammation,1.8,
+386,454,Suspected fracture,5.0,yes
+387,456,Inflammation,8.8,
+388,457,Early-stage lesion,9.7,
+389,458,Tumor - malignant,7.6,TRUE
+390,459,No abnormality detected,4.8,yes
+391,460,Tumor - malignant,6.8,No
+392,461,Follow-up required,9.6,
+393,462,Inflammation,2.5,Yes
+394,463,Degenerative changes,0.8,No
+395,464,Degenerative changes,2.2,
+396,465,Tumor - malignant,5.0,No
+397,466,Tumor - malignant,8.7,No
+398,467,Tumor - malignant,8.4,yes
+399,468,Suspected fracture,1.2,Yes
+400,469,Early-stage lesion,6.1,
+401,471,Degenerative changes,6.2,TRUE
+402,474,Inflammation,4.9,
+403,475,Tumor - malignant,7.5,No
+404,476,Follow-up required,4.8,
+405,477,Degenerative changes,3.9,No
+406,478,Suspected fracture,7.0,TRUE
+407,479,No abnormality detected,0.1,No
+408,480,Suspected fracture,3.3,
+409,482,Inflammation,2.4,TRUE
+410,484,Tumor - benign,5.0,No
+411,485,Degenerative changes,3.7,TRUE
+412,486,Tumor - benign,5.7,
+413,487,Suspected fracture,7.2,No
+414,488,Follow-up required,2.0,No
+415,489,No abnormality detected,1.8,TRUE
+416,490,Degenerative changes,7.9,yes
+417,491,No abnormality detected,4.0,No
+418,492,Inflammation,4.8,Yes
+419,493,Degenerative changes,2.6,yes
+420,494,Inflammation,3.4,TRUE
+421,495,Tumor - malignant,5.8,
+422,496,Inflammation,3.6,
+423,497,Early-stage lesion,8.9,TRUE
+424,498,Early-stage lesion,6.3,No
+425,500,Degenerative changes,4.2,
+426,501,Suspected fracture,0.8,yes
+427,502,Degenerative changes,6.5,yes
+428,503,Follow-up required,2.7,TRUE
+429,504,Degenerative changes,7.5,
+430,506,Tumor - benign,8.5,No
+431,507,Inflammation,9.4,Yes
+432,508,Follow-up required,1.0,Yes
+433,510,No abnormality detected,0.3,TRUE
+434,511,Suspected fracture,1.0,
+435,512,Follow-up required,3.1,No
+436,513,Early-stage lesion,6.3,No
+437,514,Tumor - benign,0.3,yes
+438,516,Early-stage lesion,4.7,
+439,518,Tumor - benign,9.7,
+440,519,Early-stage lesion,6.3,
